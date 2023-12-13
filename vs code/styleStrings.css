@@ -1,0 +1,28 @@
+nav{
+    height: 500px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+    color:#c4c7cf
+}
+button{
+    color:red
+}
+
+table{
+    position: right;
+    color: red;
+    background-color: black;
+    margin-left: 1000px;
+}
+    

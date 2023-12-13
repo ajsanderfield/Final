@@ -1,0 +1,52 @@
+nav{
+    height: 400px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+a{
+    color:red
+}
+
+body{background-color: #2f333d 
+}
+
+p{
+    color: #c4c7cf;
+}
+
+footer{
+    text-align: center;
+    margin-right: 100px;
+    color:#c4c7cf
+}
+#memeImage{ 
+    margin-right: 200px;
+    animation-duration: 0s;
+    animation-name: moving;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes moving {
+    from    {
+        margin-right: 100px;
+
+    }
+    to{
+        margin-right: 300px;
+
+    }
+}
+
+
+form{
+    color: #c4c7cf;
+}
+
+button{
+    color:red
+}

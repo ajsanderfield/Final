@@ -1,0 +1,33 @@
+nav{
+    height: 500px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+a{
+    color:red
+}
+
+body{background-color: #2f333d 
+}
+
+h2{ 
+    color:#000000
+}
+
+h3{
+    color:#c4c7cf
+}
+
+p{
+    color: #c4c7cf;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+    color: antiquewhite;
+}
+

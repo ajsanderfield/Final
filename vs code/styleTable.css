@@ -1,0 +1,32 @@
+header{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+    color:#c4c7cf
+}
+
+table{
+    position: center;
+    color: red;
+    background-color: black;
+    align-items: center;
+    margin-left: 500px;
+
+}
+body{
+    background-color:#2f333d  ;
+}
+nav{
+    height: 500px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+a{
+    color:red
+}

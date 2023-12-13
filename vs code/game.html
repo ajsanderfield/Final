@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Webpage for CSC102 Fa 2023
+    Written by: AJ Sanderfield
+    ashsande@uat.edu
+    Created: sep 18 2023 Updated : Dec 9 2023 -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AJ's Game Page</title>
+        <script src="gameCode.js"> </script>
+        <link rel="stylesheet" href="styleGames.css">
+    </head>
+ 
+    <body> 
+        <!-- welcoming playet to game-->
+    <header>   <h1>Welcome to Da Casino Fool!</h1>
+        <!--makes text blink -->
+        <h3 class="blink_text">Want to play craps fool?</h3>
+        <!--Navigation Buttons -->
+        <nav>
+            <h2>
+                Navigation
+            </h2>
+             <!-- redirect to home page-->
+             <a href="./welcome.html">
+                Home
+            </a> <br>
+                <!--redirect to index page-->
+            <a href="./index.html">
+                Meme
+            </a> <br>
+            <!--redirect to boards page-->
+            <a href="./boards.html">
+                Boards
+            </a>   <br>
+            <!--redirect to game page-->
+            <a href="./game.html">
+               Da Casino
+            </a> <br>
+            <!--redirect to strings page-->
+            <a href="./strings.html">
+                Strings
+            </a> <br>
+            <a href="./click.html">
+                Clicker
+            </a> <br>
+            <a href="./table.html">
+                Table
+            </a> <br>
+        </nav>
+    
+    </header>
+    </body>
+    <!-- rules for the dice game-->
+    <p>
+        Da Rulez: <br>
+        1. Roll them dice <br>
+        2, If they equal 7 or 11, you lose fool! <br>
+        3. If you got you some doubles, AND them is even, you win homie!<br>
+    </p>
+        <!-- button rolls the dice-->
+       <button onclick="playCraps()">
+        Play Craps 
+    </button> <br>
+
+    <b>
+    <!-- explaining how it works-->
+
+    Press button to play craps<br><br>
+        <!-- shows result of 1st die-->
+    Da 1st die:<div id="die1Res"> Press Play Craps for result</div><br>
+    <!-- shows result of 2nd die-->
+    Da 2nd die:<div id="die2Res"> Press Play Craps for result</div><br>
+    <!-- shows result of sum of die-->
+    What they equals:<div id="sumRes"> Press Play Craps for result</div><br>
+    <!-- shows result of game-->
+    So?:<div id="finRes"> Press Play Craps for result</div><br>
+</b>
+<button2> Cool Meter! Will Stop If A Cool Individual Is Detected
+</button2>
+<progress > Cool meter </progress>
+
+</html>

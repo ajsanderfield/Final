@@ -1,0 +1,77 @@
+nav{
+    height: 500px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+a{
+    color:red
+}
+
+body{background-image: url(plainsymbols.avif);
+    background-size:contain;
+background-position: center;
+}
+
+b{color:#c4c7cf
+}
+
+button {
+    color:red
+}
+
+h1{
+    color:#c4c7cf
+}
+
+h2{ 
+    color:#c4c7cf
+}
+
+p{
+    color: #c4c7cf ;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+.blink_text
+{
+    animation:1s blinker linear infinite;
+    -webkit-animation:2s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+    color: red;
+}
+
+@-moz-keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+ }
+ progress{
+    position: center;
+    color: red;
+        
+ }
+ button2{
+    color: red;
+ }
